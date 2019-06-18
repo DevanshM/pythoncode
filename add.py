@@ -1,8 +1,7 @@
-x=int(input("enter x"))
-y=int(input("enter y"))
-z=x+y:
-print("*"*80)
-print("x = "x)
-print("y = "y)
-print("z = "z)_
-print("*"*80)
+x,y=map(int,input("x,y").split())
+z=x+y
+print("*"*60)
+print("x ={x} ".center(60))
+print("y ={y} ".center(60)
+print("z ={z} ".center(60))_
+print("*"*60)
